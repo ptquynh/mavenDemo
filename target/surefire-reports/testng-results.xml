@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Group of group Suite" duration-ms="21" started-at="2016-08-25T07:13:57Z" finished-at="2016-08-25T07:13:57Z">
+    <groups>
+      <group name="include-test-one">
+        <method signature="RegularExpressionGroupTest.testMethodOne()[pri:0, instance:sample.maven.test.org.RegularExpressionGroupTest@17f6480]" name="testMethodOne" class="sample.maven.test.org.RegularExpressionGroupTest"/>
+      </group> <!-- include-test-one -->
+      <group name="include-test-two">
+        <method signature="RegularExpressionGroupTest.testMethodTwo()[pri:0, instance:sample.maven.test.org.RegularExpressionGroupTest@17f6480]" name="testMethodTwo" class="sample.maven.test.org.RegularExpressionGroupTest"/>
+      </group> <!-- include-test-two -->
+    </groups>
+    <test name="Group of group Test" duration-ms="21" started-at="2016-08-25T07:13:57Z" finished-at="2016-08-25T07:13:57Z">
+      <class name="sample.maven.test.org.RegularExpressionGroupTest">
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:sample.maven.test.org.RegularExpressionGroupTest@17f6480]" name="testMethodOne" duration-ms="2" started-at="2016-08-25T14:13:57Z" finished-at="2016-08-25T14:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne -->
+        <test-method status="PASS" signature="testMethodTwo()[pri:0, instance:sample.maven.test.org.RegularExpressionGroupTest@17f6480]" name="testMethodTwo" duration-ms="0" started-at="2016-08-25T14:13:57Z" finished-at="2016-08-25T14:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodTwo -->
+      </class> <!-- sample.maven.test.org.RegularExpressionGroupTest -->
+    </test> <!-- Group of group Test -->
+  </suite> <!-- Group of group Suite -->
+  <suite name="Parallel tests" duration-ms="0" started-at="2016-08-25T07:13:57Z" finished-at="2016-08-25T07:13:57Z">
+    <groups>
+    </groups>
+    <test name="Test Two" duration-ms="0" started-at="2016-08-25T07:13:57Z" finished-at="2016-08-25T07:13:57Z">
+      <class name="sample.maven.test.org.ParallelSuiteTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:sample.maven.test.org.ParallelSuiteTest@17550481]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-08-25T14:13:57Z" finished-at="2016-08-25T14:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:sample.maven.test.org.ParallelSuiteTest@17550481]" name="testMethodOne" duration-ms="0" started-at="2016-08-25T14:13:57Z" finished-at="2016-08-25T14:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:sample.maven.test.org.ParallelSuiteTest@17550481]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-08-25T14:13:57Z" finished-at="2016-08-25T14:13:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:sample.maven.test.org.ParallelSuiteTest@17550481]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-08-25T14:13:57Z" finished-at="2016-08-25T14:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:sample.maven.test.org.ParallelSuiteTest@17550481]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-08-25T14:13:57Z" finished-at="2016-08-25T14:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- sample.maven.test.org.ParallelSuiteTest -->
+    </test> <!-- Test Two -->
+    <test name="Test One" duration-ms="0" started-at="2016-08-25T07:13:57Z" finished-at="2016-08-25T07:13:57Z">
+      <class name="sample.maven.test.org.ParallelSuiteTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:sample.maven.test.org.ParallelSuiteTest@26ba2a48]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-08-25T14:13:57Z" finished-at="2016-08-25T14:13:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test One]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:sample.maven.test.org.ParallelSuiteTest@26ba2a48]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-08-25T14:13:57Z" finished-at="2016-08-25T14:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:sample.maven.test.org.ParallelSuiteTest@26ba2a48]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-08-25T14:13:57Z" finished-at="2016-08-25T14:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:sample.maven.test.org.ParallelSuiteTest@26ba2a48]" name="testMethodOne" duration-ms="0" started-at="2016-08-25T14:13:57Z" finished-at="2016-08-25T14:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:sample.maven.test.org.ParallelSuiteTest@26ba2a48]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-08-25T14:13:57Z" finished-at="2016-08-25T14:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- sample.maven.test.org.ParallelSuiteTest -->
+    </test> <!-- Test One -->
+  </suite> <!-- Parallel tests -->
+</testng-results>
